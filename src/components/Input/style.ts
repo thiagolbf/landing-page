@@ -26,4 +26,17 @@ export const InputContainer = styled.div`
       color: var(--gray);
     }
   }
+
+  @media (max-width: 400px) {
+    > img {
+      width: 15px;
+    }
+
+    > input {
+      padding: 0;
+      ::placeholder {
+        font-size: 11px;
+      }
+    }
+  }
 `;
