@@ -40,4 +40,8 @@ export const SaleContainer = styled.div`
     font-weight: 600;
     font-size: 18px;
   }
+
+  @media (max-width: 500px) {
+    padding: 25px 0 0 30px;
+  }
 `;
