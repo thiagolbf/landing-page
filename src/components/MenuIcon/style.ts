@@ -1,15 +1,13 @@
 import styled from "styled-components";
 
 export const Menu = styled.ul`
-  margin-top: 34px;
-
+  margin: 34px auto 0 auto;
   font-family: var(--poppins);
   width: 100%;
   max-width: 1266px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  margin: auto;
 
   li:first-child {
     > p {

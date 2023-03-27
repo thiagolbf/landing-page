@@ -12,7 +12,7 @@ import { useState } from "react";
 import { CarouselComponent } from "../Carousel";
 
 export const SelectProduct = () => {
-  const [activeButton, setActiveButton] = useState<string>("");
+  const [activeButton, setActiveButton] = useState<string>("celphone");
 
   return (
     <SaleProductContainer>
