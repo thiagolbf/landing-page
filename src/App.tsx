@@ -4,8 +4,7 @@ import { HeaderComponent } from "./components/Header";
 import { SaleComponent } from "./components/Sale";
 import { MenuIcon } from "./components/MenuIcon";
 import { SelectProduct } from "./components/SelectProduct";
-
-import { CarouselComponent } from "./components/Carousel";
+import { PartnerCard } from "./components/PartnerCard";
 
 function App() {
   return (
@@ -15,6 +14,7 @@ function App() {
       <SaleComponent />
       <MenuIcon />
       <SelectProduct />
+      <PartnerCard title={"Parceiros"} />
     </>
   );
 }
