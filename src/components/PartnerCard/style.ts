@@ -10,7 +10,8 @@ export const PartnerContainer = styled.div`
   margin: 0 auto 60px auto;
 
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
 
   color: var(--white);
@@ -28,6 +29,8 @@ export const PartnerContent = styled.div`
   mix-blend-mode: normal;
 
   border-radius: 20px;
+
+  margin: 10px;
 
   > p.title {
     font-size: 40px;
