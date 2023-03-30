@@ -3,6 +3,9 @@ import styled from "styled-components";
 import Sale from "../../assets/Sale.png";
 
 export const SaleContainer = styled.div`
+  width: 100%;
+  max-width: 1500px;
+
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000),
     url(${Sale});
   background-repeat: no-repeat;
@@ -12,6 +15,7 @@ export const SaleContainer = styled.div`
   font-family: var(--poppins);
   padding: 52px 0 0 92px;
   color: var(--white);
+  margin: auto;
 
   > h2 {
     font-weight: 600;

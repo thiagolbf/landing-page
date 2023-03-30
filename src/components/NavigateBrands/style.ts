@@ -19,7 +19,7 @@ export const BrandsList = styled.ul`
   max-width: 1266px;
   margin: 52px 0 89px 0;
   display: flex;
-  justify-content: center;
+
   overflow-x: auto;
   scroll-behavior: smooth;
 

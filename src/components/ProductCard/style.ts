@@ -10,6 +10,7 @@ export const ProductContainer = styled.div`
   font-family: var(--poppins);
 
   margin-right: 62px;
+  text-align: center;
 
   > img {
     padding: 32px 12px 9px 11px;
@@ -19,11 +20,44 @@ export const ProductContainer = styled.div`
     font-weight: 300;
     font-size: 15px;
 
-    margin: 0 14px 12px 11px;
+    margin: 0 14px 0 11px;
+    text-align: left;
+  }
+
+  p.paymentCondition {
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 11px;
+  }
+
+  p.delivery {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: left;
+    color: var(--pink);
+
+    margin: 2px 0 12px 11px;
+  }
+
+  > button {
+    width: 245px;
+    padding: 12px 0;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    text-align: center;
+
+    font-weight: 700;
+
+    border-radius: 5px;
+    border: none;
+
+    background-color: var(--pink);
+    color: var(--white);
   }
 
   > div.price {
-    margin: 0 0 2px 11px;
+    margin: 12px 0 2px 11px;
     del {
       color: var(--gray);
       font-weight: 300;
@@ -31,13 +65,13 @@ export const ProductContainer = styled.div`
     p:first-child {
       font-weight: 300;
       font-size: 16px;
-
+      text-align: left;
       color: var(--gray);
     }
     p:nth-child(2) {
       font-weight: 700;
       font-size: 20px;
-
+      text-align: left;
       color: var(--black);
     }
   }
