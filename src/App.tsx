@@ -7,6 +7,7 @@ import { SelectProduct } from "./components/SelectProduct";
 import { PartnerCard } from "./components/PartnerCard";
 import { AllProducts } from "./components/AllProducts";
 import { NavigateBrands } from "./components/NavigateBrands";
+import { FooterComponent } from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <PartnerCard title={"Produtos"} />
       <NavigateBrands />
       <AllProducts />
+      <FooterComponent />
     </>
   );
 }

@@ -17,7 +17,7 @@ export const ProductCard = ({
     <ProductContainer>
       <img src={photo} alt="celphone" />
 
-      <p className="productName">{productName}</p>
+      <p className="description">{productName}</p>
       <p className="description">{descriptionShort}</p>
       <div className="price">
         <del>
