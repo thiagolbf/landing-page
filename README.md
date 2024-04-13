@@ -16,4 +16,4 @@
 
 ### Link para acessar o projeto:
 
-<a href="https://landingpage-thiagolbf.vercel.app/" target="_blank">Link do projeto</a>
+<a href="https://landingpage-eosin-seven.vercel.app" target="_blank">Link do projeto</a>
